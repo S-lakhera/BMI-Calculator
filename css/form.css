@@ -1,6 +1,6 @@
 .input-form{
     width: 50%;
-    padding-top: 30px;
+    padding-top: 5%;
 }
 
 form{
@@ -10,7 +10,7 @@ form{
 }
 
 form > div{
-    padding: 10px;
+    padding: 15px;
 }
 
 h1{
@@ -44,7 +44,7 @@ h1{
 .inputs{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     margin: 15px auto;
 }
 
@@ -72,17 +72,18 @@ h1{
     display: flex;
 }
 
-.button button{
+button{
     background-color: #f7ede2;
     padding: 10px 20px;
-    width: 40%;
+    width: 70%;
     border-radius: 10px;
     font-size: 1em;
     font-weight: 600;
-
-}
-
-button{
     cursor: pointer;
     border: 1px solid black;
+    transition: 0.3s all ease;
+}
+
+button:active{
+    scale: 0.95;
 }

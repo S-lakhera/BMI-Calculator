@@ -42,5 +42,5 @@ main{
 
 .calculation{
     display: flex;
-    height: 100vh;
+    flex-wrap: wrap;
 }

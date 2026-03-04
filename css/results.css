@@ -1,7 +1,7 @@
 .results{
     width: 50%;
     height: 100%;
-    padding-top: 25px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -15,13 +15,20 @@
 }
 
 .results .image{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .results .image img{
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
+    border: 1px solid;
 }
 
+.results .image img:hover{
+}
+
+.msg p{
+    
+}
