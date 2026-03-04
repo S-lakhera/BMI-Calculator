@@ -1,0 +1,30 @@
+
+
+.info .image{
+    width: 100%;
+    margin-top: 0.5em;
+    justify-content: center;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.info .image img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.info p{
+    color: rgb(33, 33, 33);
+    padding: 20px 5px;
+    line-height: 36px;
+}
+
+.info p span{
+    color: rgb(27, 27, 27);
+    
+}
+
+.info .image img:hover{
+    border: 1px solid;
+}
